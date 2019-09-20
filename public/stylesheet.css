@@ -1,0 +1,220 @@
+body {
+    font-family: Gothic A1;
+    background-color: lightsteelblue;
+    user-select: none;
+}
+
+#phone {
+    border: 0.5em solid black;
+    height: 40em;
+    width: 22.5em;;
+    margin: 5em auto;
+    border-radius: 1.5em;
+    background-color: white;
+}
+
+#top {
+    margin: auto;
+    width: 5em;
+    height: 2.5em;
+    font-size: 1.5em;
+}
+
+#top p {
+    margin: 0;
+    position: relative;
+    top: 0.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#screen {
+    border: 1px solid black;
+    height: 32em;
+    width: 19.69em;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    position: relative;
+    margin: auto;
+}
+
+#screen-header {
+    font-size: 0.75em;
+    padding-top: 0.25em;
+    padding-left: 0.1em;
+    display: none;
+}
+
+#time {
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 4em;
+    font-weight: 100;
+}
+
+#date {
+    text-align: center;
+
+}
+
+#unlock-msg {
+    position: absolute;
+    bottom: 1.25em;
+    text-align: center;
+    width: 100%;
+    display: none;
+    font-size: 0.75em;
+}
+
+#screen-footer {
+    position: absolute;
+    bottom: 0.25em;
+    text-align: center;
+    width: 100%;
+    display: none;
+    font-size: 0.5em;
+}
+
+#right-dot {
+    margin: 0 0.5em;
+}
+
+.fa-lock {
+    margin: 0 8.2em 0 5em;
+}
+
+#touch-enter-msg {
+    color: white;
+    text-align: center;
+    margin-top: 3em;
+}
+
+#passcode-dots {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+#passcode-dots span {
+    margin: 0 0.75em;
+    font-size: 0.75em;
+}
+
+.number-pad {
+    margin-top: 1em;
+}
+
+.number-pad table {
+    margin: 0 auto;
+    color: white;
+    border-collapse: separate;
+    border-spacing: 1.75em 0.8em;
+}
+
+.number-pad table tr td {
+    /* border: 1px solid white; */
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    border-radius: 100%;
+    padding: 0.6em;
+    width: 1.75em;
+    height: 1.5em;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.number-pad table tr {
+    margin: 2em 0;
+    height: 1.5em;
+}
+
+.letters {
+    font-size: 0.5em;
+    font-weight: 500;
+}
+
+#zero {
+    height: 2.9em !important;
+}
+
+.hidden {
+    background: none !important;
+}
+
+#passcode-footer {
+    position: absolute;
+    bottom: 1.25em;
+    text-align: center;
+    width: 100%;
+    font-size: 0.9em;
+    color: white;
+}
+
+#emergency {
+    margin-right: 4em;
+}
+
+#emergency-pad {
+    margin-top: 0;
+}
+
+#emergency-call {
+    color: red;
+    text-align: center;
+    margin-top: 2em;
+    font-weight: 600;
+    margin-bottom: 0.25em;
+}
+
+.fa-phone {
+    color: white;
+    font-size: 1.5em;
+}
+
+#emergency-pad td {
+    background: none;
+    background-color: lightgrey;
+    color: black;
+}
+
+#make-call {
+    background-color: #30d158 !important;
+    height: 2.9em;
+}
+
+.cancel {
+    margin-left: 4em;
+}
+
+#emergency-cancel {
+    color: black;
+    margin-left: 13em;
+    font-weight: 600;
+}
+
+#home-button {
+    border: 0.25em solid silver;
+    border-radius: 50%;
+    height: 2.25em;
+    width: 2.25em;
+    margin: auto;
+    margin-top: 0.6em;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
