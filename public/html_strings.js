@@ -95,3 +95,36 @@ let emergency_screen_html = "<div id='screen-header'>" +
                             "<div id='passcode-footer'>" +
                                 "<span class='cancel' id='emergency-cancel'>Cancel</span>" + 
                             "</div>"
+
+let unlocked_screen_html = "<div id='screen-header'>" + 
+                                "<i class='fa fa-signal'></i > &nbsp; ROGERS &nbsp; <i class='fa fa-wifi'></i> <span id='unlock-time'>4:20 PM</span> 100% <i class='fa fa-battery-full'></i>" + 
+                            "</div>" + 
+                            "<table id='apps'>" + 
+                                "<tr class='app-row'>" + 
+                                    "<td class='app'>" + 
+                                        "<img src='settings.png'><br>" + 
+                                        "<span>Settings</span>" + 
+                                    "</td>" + 
+                                    "<td class='app'>" + 
+                                        "<img src='app_store.png'><br>" + 
+                                        "<span>App Store</span>" + 
+                                    "</td>" + 
+                                    "<td class='app'>" + 
+                                        "<img src='clock.png'><br>" + 
+                                        "<span>Clock</span>" + 
+                                    "</td>" + 
+                                    "<td class='app'>" + 
+                                        "<img src='maps.png'><br>" + 
+                                        "<span>Maps</span>" + 
+                                    "</td>" + 
+                                "</tr>" +
+                                "<tr class='app-row'>" + 
+                                "<td class='app'>" + 
+                                    "<img src='calculator.png'><br>" + 
+                                    "<span>Calculator</span>" + 
+                                "</td>" + 
+                                "</tr>" +
+                            "</table>" + 
+                            "<div id='screen-footer'>" +
+                                "<span id='left-dot'>●</span> <span id='right-dot'>●</span> <i class='fa fa-camera'></i>"+
+                            "</div>"
