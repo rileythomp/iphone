@@ -2,13 +2,23 @@ body {
     font-family: Gothic A1;
     background-color: lightsteelblue;
     user-select: none;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    padding: 1em;
+    font-family: Gothic A1;
+    font-weight: bold;
+    font-size: 1em;
+    width: 11em;
 }
 
 #phone {
     border: 0.5em solid black;
     height: 40em;
     width: 22.5em;;
-    margin: 5em auto;
+    margin: 4em auto;
     border-radius: 1.5em;
     background-color: white;
 }
@@ -60,7 +70,6 @@ body {
 
 #date {
     text-align: center;
-
 }
 
 #unlock-msg {
@@ -121,7 +130,6 @@ body {
 }
 
 .number-pad table tr td {
-    /* border: 1px solid white; */
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
     border-radius: 100%;
     padding: 0.6em;
@@ -170,9 +178,17 @@ body {
 #emergency-call {
     color: red;
     text-align: center;
-    margin-top: 2em;
     font-weight: 600;
     margin-bottom: 0.25em;
+}
+
+#typed-num {
+    color: black;
+    text-align: center;
+    height: 2em;
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 
 .fa-phone {
@@ -189,6 +205,11 @@ body {
 #make-call {
     background-color: #30d158 !important;
     height: 2.9em;
+}
+
+#backspace {
+    background-color: whitesmoke !important;
+    display: none;
 }
 
 .cancel {
@@ -246,4 +267,4 @@ body {
     40%, 60% {
       transform: translate3d(4px, 0, 0);
     }
-  }
+}
