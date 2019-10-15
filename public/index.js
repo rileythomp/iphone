@@ -133,8 +133,10 @@ function add_num_presses() {
     let nums = document.querySelectorAll('#dial-pad td');
     for (let i = 0; i < nums.length-1; ++i) {
         let num = nums[i];
-        num.addEventListener('mousedown', number_down);
-        num.addEventListener('mouseup', number_up);
+        if (num.id != 'make-call') {
+            num.addEventListener('mousedown', number_down);
+            num.addEventListener('mouseup', number_up);
+        }
     }
 }
 
