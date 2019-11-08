@@ -8,6 +8,7 @@ iPhone UI on the web.
 
 Built with:
  * Javascript, HTML/CSS
+ * Deployed with Heroku
 
 To run locally:
 
